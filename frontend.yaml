@@ -27,7 +27,7 @@ spec:
       containers:
         - env:
             - name: MESSAGE
-              value: Good Morning! This is version 1.1
+              value: Good Morning! This is version 1.2
           image: 'paulbouwer/hello-kubernetes:1.5'
           name: hello-kubernetes
           ports:
